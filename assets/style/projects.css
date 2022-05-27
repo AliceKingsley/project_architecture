@@ -1,0 +1,74 @@
+.projects {
+	padding-bottom: 120px;
+}
+
+.projects__title {
+	margin-bottom: 60px;
+}
+
+.projects__block {
+	margin-bottom: 30px;
+	gap: 30px;
+}
+
+.projects__card {
+	grid-column: span 6;
+}
+
+.projects__card--3 {
+	grid-column: span 3;
+}
+
+.projects__card--5 {
+	grid-column: span 5;
+}
+
+.projects__card--4 {
+	grid-column: span 4;
+}
+
+.projects__img {}
+
+.projects-info {
+	padding-top: 48px;
+	padding-bottom: 48px;
+	padding-left: 80px;
+	display: none;
+	background-color: var(--color-dark-gray);
+	opacity: 0.8;
+}
+
+.projects-info__title {
+	margin-bottom: 10px;
+	max-width: 240px;
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 64px;
+	color: var(--color-light);
+}
+
+.projects-info__btn {
+	position: relative;
+	display: block;
+	font-family: 'Gothic A1', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: var(--color-light);
+}
+
+.projects-info__btn::after {
+	content: '';
+	margin-left: 20px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 24px;
+	height: 24px;
+	background-image: url(../img/arrow-right-white.svg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}

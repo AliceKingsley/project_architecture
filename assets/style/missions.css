@@ -1,0 +1,31 @@
+.missions {
+	padding-top: 150px;
+	padding-bottom: 170px;
+	gap: 30px;
+}
+
+.missions__title {
+	grid-column: span 12;
+}
+
+.missions__block {
+	grid-column: span 6;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.missions__count {
+	margin-right: 30px;
+	font-weight: 900;
+	font-size: 200px;
+	line-height: 234px;
+	color: var(--color-light-gray);
+}
+
+.missions__text {
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 36px;
+	color: var(--color-dark-gray);
+}

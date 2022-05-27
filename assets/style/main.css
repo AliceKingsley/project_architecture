@@ -6,6 +6,8 @@
 /* components */
 @import "../style/hero.css";
 @import "../style/about.css";
+@import "../style/missions.css";
+@import "../style/projects.css";
 
 /* small components */
 @import "../style/counter.css";
