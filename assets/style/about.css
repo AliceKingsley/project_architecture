@@ -1,0 +1,36 @@
+.about {
+	margin-top: 30px;
+	margin-bottom: 120px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	gap: 30px;
+	background-color: #fbfbfb;
+}
+.about__img-block1 {
+	grid-column: span 4;
+	justify-self: end;
+}
+.about__img1:not(:last-child) {
+	margin-bottom: 30px;
+}
+
+.about__img1--bottom {
+	margin-bottom: -80px;
+}
+
+.about__img-block2 {
+	grid-column: span 3;
+}
+.about__description {
+	grid-column: span 5;
+}
+.about__title {
+	margin-bottom: 20px;
+}
+
+.about__descr {
+	max-width: 400px;
+	margin-bottom: 20px;
+}
+.about__btn {
+}

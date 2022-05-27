@@ -1,0 +1,11 @@
+@import "../style/variables.css";
+@import "../style/global.css";
+@import "../style/overall.css";
+
+
+/* components */
+@import "../style/hero.css";
+@import "../style/about.css";
+
+/* small components */
+@import "../style/counter.css";

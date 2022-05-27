@@ -1,0 +1,45 @@
+/* =======overall settings======= */
+.site-container {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.container {
+	max-width: 1200px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.btn-reset {
+	border: none;
+	padding: 0;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.list-reset {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+}
+
+.title {
+	margin: 0;
+	font-size: 64px;
+	font-weight: 300;
+	line-height: 64px;
+	color: var(--color-gray);
+}
+
+.descr {
+	margin: 0;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 25px;
+	color: var(--color-black);
+}

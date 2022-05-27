@@ -1,0 +1,21 @@
+.counter {
+	display: flex;
+	justify-content: space-between;
+	max-width: 142px;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 24px;
+	color: var(--color-gray);
+}
+
+.counter span {
+	display: block;
+}
+
+.counter__center {
+	width: 44px;
+	height: 2px;
+	text-align: center;
+	background-color: var(--color-gray);
+	transform: translate(0, 20px) rotate(-45deg);
+}

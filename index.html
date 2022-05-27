@@ -1,13 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Digital Project</title>
-</head>
-<body>
-
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="assets/style/main.css" />
+  </head>
+  <body>
+    <main class="site-container">
+      <div class="container">
+        <!--HERO BLOCK-->
+        <section class="hero grid">
+          <div class="hero__left">
+            <h1 class="hero__title title">Project</h1>
+            <p class="hero__descr">Lorum</p>
+            <div class="btn-block">
+              <button
+                class="btn btn-reset hero__btn-small hero__btn-small--left"
+              ></button>
+              <button
+                class="btn btn-reset hero__btn-small hero__btn-small--right"
+              ></button>
+            </div>
+            <div class="counter hero__counter">
+              <div class="conter__left">
+                <span>0</span>
+                <span>1</span>
+              </div>
+              <div class="counter__center"></div>
+              <div class="counter__right">
+                <span>02</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero__right">
+            <img
+              src="./assets/img/hero-img.jpg"
+              alt="Building"
+              class="hero__img"
+            />
+            <a href="#" class="btn hero__btn">View Project</a>
+          </div>
+        </section>
+        <section class="about grid">
+          <div class="about__img-block1">
+            <div class="about__img1">
+              <img src="./assets/img/about1.jpg" alt="image 1" />
+            </div>
+            <div class="about__img1 about__img1--bottom">
+              <img src="./assets/img/about2.jpg" alt="image 2" />
+            </div>
+          </div>
+          <div class="about__img-block2">
+            <img src="./assets/img/about3.jpg" alt="image 3" />
+          </div>
+          <div class="about__description">
+            <h2 class="about__title title">About</h2>
+            <p class="about__descr descr">
+              Lorem Ipsum is&nbsp;simply dummy text of&nbsp;the printing and
+              typesetting industry. Lorem Ipsum has been the industry&rsquo;s
+              standard dummy text ever since the 1500s, when an&nbsp;unknown
+              printer took a&nbsp;galley of&nbsp;type and scrambled
+              it&nbsp;to&nbsp;make a&nbsp;type specimen book. It&nbsp;has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged.
+            </p>
+            <a href="" class="btn about__btn">Read more</a>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
 </html>
