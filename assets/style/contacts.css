@@ -1,5 +1,18 @@
+.contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-block {
+    width: 35%;
+    margin-top: 5%;
+    margin-right: 15%;
+}
+
 .map-block {
     position: relative;
+
+    border: 1px solid var(--color-black);
 }
 
 .map-block__img {
@@ -31,8 +44,8 @@
 
     display: block;
     width: max-content;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    margin-top: 15%;
+    margin-bottom: 15%;
 }
 
 .address__mail {
