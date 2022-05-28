@@ -48,3 +48,7 @@ img {
 	max-height: 100%;
 	object-fit: cover;
 }
+
+address {
+	font-style: inherit;
+}
