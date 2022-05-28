@@ -12,6 +12,7 @@
 }
 
 .projects__card {
+	position: relative;
 	grid-column: span 6;
 }
 
@@ -30,12 +31,21 @@
 .projects__img {}
 
 .projects-info {
-	padding-top: 48px;
-	padding-bottom: 48px;
-	padding-left: 80px;
-	display: none;
+	padding-top: 3rem;
+	padding-left: 5rem;
+	position: absolute;
+	width: 100%;
+	min-height: 100%;
+	top: 0;
+	left: 0;
 	background-color: var(--color-dark-gray);
-	opacity: 0.8;
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.projects-info--3 {
+	padding-top: 3rem;
+	padding-left: 1.5rem;
 }
 
 .projects-info__title {
@@ -71,4 +81,8 @@
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+
+.projects-info:hover {
+	opacity: 0.8;
 }

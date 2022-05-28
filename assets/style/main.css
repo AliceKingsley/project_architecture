@@ -8,6 +8,8 @@
 @import "../style/about.css";
 @import "../style/missions.css";
 @import "../style/projects.css";
+@import "../style/contact.css";
 
 /* small components */
 @import "../style/counter.css";
+@import "../style/form.css";

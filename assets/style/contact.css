@@ -1,0 +1,19 @@
+.contact {
+	padding-bottom: 70px;
+}
+
+.contact__title {
+	margin-bottom: 20px;
+}
+
+.contact__block {
+	margin-bottom: 75px;
+	gap: 30px;
+}
+.contact__form {
+	grid-column: span 4;
+}
+
+.contact__img {
+	grid-column: span 8;
+}
