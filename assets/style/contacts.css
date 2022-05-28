@@ -1,0 +1,48 @@
+.map-block {
+    position: relative;
+}
+
+.map-block__img {
+    position: absolute;
+    left: 650px;
+    top: 150px;
+}
+
+.address-block__title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: inherit;
+    color: var(--color-dark-gray);
+    padding-bottom: 0.5%;
+}
+
+.address-block__text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 0,64rem;
+    color: var(--color-dark-gray);
+}
+
+.address__phone {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 0,72rem;
+    color: var(--color-dark-gray);
+
+    display: block;
+    width: max-content;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.address__mail {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 0,64rem;
+    color: var(--color-dark-gray);
+
+    display: block;
+    width: max-content;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
