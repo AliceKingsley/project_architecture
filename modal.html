@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacts Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="assets/style/modal.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="modal">
+        <div class="modal__block-title">
+          <h2 class="modal__title">Have a question?</h2>
+          <a href="index.html" class="modal__close">
+            <img src="./assets/img/close-btn.svg" alt="close button" />
+          </a>
+        </div>
+        <form action="#" class="modal__form form">
+          <label class="form-field">
+            <input
+              type="text"
+              name="name"
+              placeholder="Name"
+              class="form-field__input"
+            />
+          </label>
+          <label class="form-field">
+            <input
+              type="tel"
+              name="tel"
+              placeholder="Phone Number"
+              class="form-field__input"
+              required
+            />
+          </label>
+          <label class="form-field">
+            <input
+              type="email"
+              name="email"
+              placeholder="E-mail"
+              class="form-field__input"
+              required
+            />
+          </label>
+          <label class="form-field">
+            <input
+              type="text"
+              name="interest"
+              placeholder="Interested In"
+              class="form-field__input"
+            />
+          </label>
+          <label class="form-field">
+            <textarea
+              name="message"
+              placeholder="Message"
+              class="form-field__input"
+              required
+            ></textarea>
+          </label>
+          <label class="form-field__checkbox">
+            <input type="checkbox" name="checkbox" value="yes" class="form-field__check"/>
+            <span class="form-field__text"
+              >By submitting the application, you agree to the Privacy
+              Policy</span
+            >
+          </label>
+          <a href="modal-send.html" class="form-field__btn">Send</a>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+@import "../style/variables.css";
+@import "../style/global.css";
+@import "../style/overall.css";
+
+.modal-send {
+	padding: 24px 60px;
+	display: flex;
+	flex-direction: column;
+	max-width: 520px;
+	margin: 0 auto;
+	background-color: var(--color-light);
+}
+
+.modal__close {
+	display: block;
+	margin-bottom: 10px;
+	text-align: end;
+}
+
+.modal-close__img {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	text-align: center;
+	width: 142px;
+	height: 142px;
+}
+
+.modal-send__title {
+	margin: 0;
+	margin-bottom: 27px;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 26px;
+	letter-spacing: 0.03em;
+	text-align: center;
+	color: var(--color-dark-gray);
+}
+
+.modal-send__text {
+	margin: 0;
+	margin-bottom: 40px;
+	font-weight: 900;
+	font-size: 14px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--color-dark-gray)
+}
+
+.modal-send__btn {
+	display: block;
+	padding: 15px 0;
+	text-align: center;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: var(--color-light);
+	background-color: var(--color-dark-gray);
+}
