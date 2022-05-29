@@ -13,6 +13,7 @@
 @import "../style/sample.css";
 @import "../style/header_footer.css";
 @import "../style/ourprojects.css";
+@import "../style/gallery.css";
 
 /* small components */
 @import "../style/counter.css";
