@@ -1,0 +1,34 @@
+.btn_grey,
+.btn_white {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5vw;
+    width: 12vw;
+    height: 7vh;
+    text-decoration: none;
+    padding: 0;
+}
+
+.btn_grey {
+    background-color: #333333;
+    color: white;
+}
+
+.btn_white {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.arrow {
+    align-self: center;
+}
+
+button {
+    border: none;
+}
+
+button:hover {
+    background-color: #5877c1;
+}
