@@ -25,10 +25,7 @@
     align-self: center;
 }
 
-button {
-    border: none;
-}
 
-button:hover {
+.btn_grey:hover, .btn_white:hover {
     background-color: #5877c1;
 }
