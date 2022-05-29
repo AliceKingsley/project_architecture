@@ -11,7 +11,18 @@
 </head>
 
 <body>
-    <header></header>
+    <header class="container">
+        <div class="logo"><img src="assets/img/logo.png" alt="logo"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">MAIN</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="ourprojects.html">PROJECTS</a></li>
+                <li><a href="ceftifications.html">CERTIFICATIONS</a></li>
+                <li><a href="contacts.html">CONTACTS</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <main class="site-container">
         <div class="container">
@@ -29,7 +40,12 @@
                             <a href="tel:+512-333-2222" class="address__phone">512.333.2222</a>
                             <a href="mailto:sampleemail@gmail.com" class="address__mail">sampleemail@gmail.com</a>
                         </address>
-                        <button>Contact us</button>
+                        <!-- <button>Contact us</button>  по логике тут кнопка, а не ссылка должна быть?! -->
+                        <a href="#">
+                            <div class="btn_grey">
+                                <div> CONTACT US</div>
+                            </div>
+                        </a>
                     </div>
         
                     <div class="map-block">
@@ -45,7 +61,48 @@
         </div>
     </main>
 
-    <footer></footer>
+    <footer class="site-container">
+        <div class="footer">
+            <div class="logo white"><a href="index.html"><img src="assets/img/logo_ft.png"
+                        alt="logo"></a>
+            </div>
+            <nav>
+                <h4 class="ft">Information</h4>
+                <ul class="ft">
+                    <li class="ft"><a class="ft" href="index.html">Main</a></li>
+                    <li class="ft"><a class="ft" href="gallery.html">Gallery</a></li>
+                    <li class="ft"><a class="ft" href="ourprojects.html">Projects</a></li>
+                    <li class="ft"><a class="ft" href="ceftifications.html">Certifications</a></li>
+                    <li class="ft"><a class="ft" href="contacts.html">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="ft">
+                <h4>Contacts</h4>
+                <div class="grid">
+                    <div class="grid__img"><img src="assets/img/Vector.png" alt="adress"></div>
+                    <div class="grid__text"> 1234 Sample Street
+                        Austin Texas 78704</div>
+                    <div class="grid__img"><img src="assets/img/Group.png" alt="mobile"></div>
+                    <div class="grid__text">512.333.2222</div>
+                    <div class="grid__img"><img src="assets/img/Group (1).png" alt="e-mail"></div>
+                    <div class="grid__text">sampleemail@gmail.com</div>
+                </div>
+            </div>
+            <div class="ft social_media">
+                <h4>Social Media</h4>
+                <div class="ft__img">
+                    <div class="icon"><a href="https://www.facebook.com/"><img src="assets/img/facebook.png" alt="facebook"></a></div>
+                    <div class="icon"><a href="https://twitter.com/"><img src="assets/img/twitter.png" alt="twitter"></a></div>
+                    <div class="icon"><a href="https://ru.linkedin.com/"><img src="assets/img/Linked In.png" alt="LinkedIn"></a></div>
+                    <div class="icon"><a href="https://www.pinterest.ru/"><img src="assets/img/pininterest.png" alt="pininterest"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block">
+            <img src="assets/img/© 2016 Landing. All.png" alt="All rights reserved">
+        </div>
+    </footer>
 </body>
 
 </html>

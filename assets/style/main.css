@@ -17,4 +17,5 @@
 /* small components */
 @import "../style/counter.css";
 @import "../style/form.css";
-@import "../style/page-header.css"
+@import "../style/page-header.css";
+@import "../style/button.css";
