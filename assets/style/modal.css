@@ -1,0 +1,109 @@
+@import "../style/variables.css";
+@import "../style/global.css";
+@import "../style/overall.css";
+
+@import "../style/form.css";
+
+.modal {
+	padding: 30px 40px;
+	display: flex;
+	flex-direction: column;
+	max-width: 470px;
+	margin: 0 auto;
+	background-color: var(--color-light);
+}
+
+.modal__block-title {
+	margin-bottom: 25px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.modal__title {
+	margin: 0 auto;
+	font-weight: 700;
+	font-size: 21px;
+	line-height: 25px;
+	letter-spacing: 0.04em;
+	color: var(--color-dark-gray);
+}
+
+.form-field__checkbox {
+	margin-top: 15px;
+	margin-bottom: 25px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.form-field__check {
+	position: absolute;
+	opacity: 0;
+}
+
+.form-field__text {
+	position: relative;
+	padding-left: 35px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.03em;
+	color: var(--color-dark-gray);
+}
+
+.form-field__text::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 1px;
+	display: inline-block;
+	border: none;
+	border-radius: 4px;
+	background-color: #f3f3f3;
+	width: 20px;
+	height: 20px;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.form-field__text::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 1px;
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/check.svg);
+	background-position: center;
+	background-size: 13px 9px;
+	background-repeat: no-repeat;
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.form-field__check:checked + .form-field__text::before {
+	background-color: #f3f3f3;
+}
+
+.form-field__check:checked + .form-field__text::after {
+	opacity: 1;
+}
+
+.form-field__check:focus + .form-field__text {
+	outline: 2px solid var(--color-dark-gray);
+	outline-offset: 2px;
+	border-radius: 2px;
+}
+
+.form-field__btn {
+	display: block;
+	padding: 15px 0;
+	text-align: center;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: var(--color-light);
+	background-color: var(--color-dark-gray);
+}

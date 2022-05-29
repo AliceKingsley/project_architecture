@@ -10,6 +10,14 @@
 	margin: 0 auto;
 }
 
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: var(--color-light-gray);
+}
+
 .btn-reset {
 	border: none;
 	padding: 0;
