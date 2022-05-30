@@ -8,6 +8,7 @@
     <title>Digital Project</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
     <link rel="stylesheet" href="assets/style/main.css" />
+    <link rel="stylesheet" href="assets/style/modal.css" />
 </head>
 
 <body>
@@ -42,11 +43,51 @@
                         <a href="tel:+512-333-2222" class="address__phone">512.333.2222</a>
                         <a href="mailto:sampleemail@gmail.com" class="address__mail">sampleemail@gmail.com</a>
                     </address>
-                    <a href="...">
+                    <a href="#ModalOpen">
                         <div class="btn_grey">
                             <div> CONTACT US</div>
                         </div>
                     </a>
+
+                    <div class="wrapper modal-window" id="ModalOpen">
+                        <div class="modal">
+                            <div class="modal__block-title">
+                                <h2 class="modal__title">Have a question?</h2>
+                                <a href="contacts.html" class="modal__close">
+                                    <img src="./assets/img/close-btn.svg" alt="close button" />
+                                </a>
+                            </div>
+                            <form action="#" class="modal__form form">
+                                <label class="form-field">
+                                    <input type="text" name="name" placeholder="Name" class="form-field__input" />
+                                </label>
+                                <label class="form-field">
+                                    <input type="tel" name="tel" placeholder="Phone Number" class="form-field__input"
+                                        required />
+                                </label>
+                                <label class="form-field">
+                                    <input type="email" name="email" placeholder="E-mail" class="form-field__input"
+                                        required />
+                                </label>
+                                <label class="form-field">
+                                    <input type="text" name="interest" placeholder="Interested In"
+                                        class="form-field__input" />
+                                </label>
+                                <label class="form-field">
+                                    <textarea name="message" placeholder="Message" class="form-field__input"
+                                        required></textarea>
+                                </label>
+                                <label class="form-field__checkbox">
+                                    <input type="checkbox" name="checkbox" value="yes" class="form-field__check" />
+                                    <span class="form-field__text">By submitting the application, you agree to the
+                                        Privacy
+                                        Policy</span>
+                                </label>
+                                <a href="modal-send.html" class="form-field__btn">Send</a>
+                            </form>
+                        </div>
+                    </div>
+
                 </div>
 
                 <div class="map-block">
@@ -55,12 +96,13 @@
                         width="1319" height="501" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade" class="map-block__map">
                     </iframe>
-                    <img src="assets/img/geo.png" alt="геометка на карте" class="map-block__img" />
+                    <img src="assets/img/geo.png" alt="geo" class="map-block__img" />
                 </div>
             </div>
         </div>
         </div>
     </main>
+
     <footer>
         <div class="footer">
             <div class="logo_white"><a href="index.html"><img src="assets/img/logo_ft.png" alt="logo"></a>
