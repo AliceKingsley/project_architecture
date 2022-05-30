@@ -52,3 +52,7 @@ img {
 address {
 	font-style: normal;
 }
+
+main {
+    margin: 5% 0;
+}
