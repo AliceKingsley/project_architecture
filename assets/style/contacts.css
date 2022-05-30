@@ -36,14 +36,14 @@
 .address-block__text {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 0,64rem;
+    font-size: 0, 64rem;
     color: var(--color-dark-gray);
 }
 
 .address__phone {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 0,72rem;
+    font-size: 0, 72rem;
     color: var(--color-dark-gray);
 
     display: block;
@@ -55,11 +55,29 @@
 .address__mail {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 0,64rem;
+    font-size: 0, 64rem;
     color: var(--color-dark-gray);
 
     display: block;
     width: max-content;
     padding-top: 2%;
     padding-bottom: 2%;
+}
+
+.modal-window {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    visibility: hidden;
+    opacity: 0;
+    overflow: hiden;
+    transition: .64s ease-in-out;
+}
+
+.modal-window:target {
+    visibility: visible;
+    opacity: 1;
 }

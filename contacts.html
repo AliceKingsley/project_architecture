@@ -8,13 +8,27 @@
     <title>Digital Project</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
     <link rel="stylesheet" href="assets/style/main.css" />
+    <link rel="stylesheet" href="assets/style/modal.css" />
 </head>
 
 <body>
-    <header></header>
+    <header>
+        <div class="logo"><a class="logo" href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li class="header"><a class="nav" href="index.html">MAIN</a></li>
+                <li class="header"><a class="nav" href="gallery.html">GALLERY</a></li>
+                <li class="header"><a class="nav" href="ourprojects.html">PROJECTS</a></li>
+                <li class="header"><a class="nav" href="ceftifications.html">CERTIFICATIONS</a></li>
+                <li class="header"><a class="nav" href="contacts.html">CONTACTS</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <main class="site-container">
         <div class="container">
+<<<<<<< HEAD
                 <div class="contacts">
                     <div class="contact-block">
                         <div class="page-header">
@@ -34,22 +48,129 @@
               							<div>Contact Us</div>
             							</div>
           							</a>
+=======
+            <div class="contacts">
+                <div class="contact-block">
+                    <div class="page-header">
+                        <h1 class="page-header__title">Contact</h1>
+                        <h2 class="page-header__text">Information</h2>
+>>>>>>> 05d42cb452598a19e7b7c3ab49e6962c64aefc9a
                     </div>
-        
-                    <div class="map-block">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5645.097745095079!2d-97.74862344457608!3d30.269594749068283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sru!4v1653729555526!5m2!1sen!2sru"
-                            width="1319" height="501" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade" class="map-block__map">
-                        </iframe>
-                        <img src="assets/img/geo.png" alt="геометка на карте" class="map-block__img"/>
+                    <address>
+                        <div class="address-block">
+                            <h6 class="address-block__title">Company Name</h6>
+
+                            <p class="address-block__text">1234 Sample Street Austin Texas 76401</p>
+                        </div>
+                        <a href="tel:+512-333-2222" class="address__phone">512.333.2222</a>
+                        <a href="mailto:sampleemail@gmail.com" class="address__mail">sampleemail@gmail.com</a>
+                    </address>
+                    <a href="#ModalOpen">
+                        <div class="btn_grey">
+                            <div> CONTACT US</div>
+                        </div>
+                    </a>
+
+                    <div class="wrapper modal-window" id="ModalOpen">
+                        <div class="modal">
+                            <div class="modal__block-title">
+                                <h2 class="modal__title">Have a question?</h2>
+                                <a href="contacts.html" class="modal__close">
+                                    <img src="./assets/img/close-btn.svg" alt="close button" />
+                                </a>
+                            </div>
+                            <form action="#" class="modal__form form">
+                                <label class="form-field">
+                                    <input type="text" name="name" placeholder="Name" class="form-field__input" />
+                                </label>
+                                <label class="form-field">
+                                    <input type="tel" name="tel" placeholder="Phone Number" class="form-field__input"
+                                        required />
+                                </label>
+                                <label class="form-field">
+                                    <input type="email" name="email" placeholder="E-mail" class="form-field__input"
+                                        required />
+                                </label>
+                                <label class="form-field">
+                                    <input type="text" name="interest" placeholder="Interested In"
+                                        class="form-field__input" />
+                                </label>
+                                <label class="form-field">
+                                    <textarea name="message" placeholder="Message" class="form-field__input"
+                                        required></textarea>
+                                </label>
+                                <label class="form-field__checkbox">
+                                    <input type="checkbox" name="checkbox" value="yes" class="form-field__check" />
+                                    <span class="form-field__text">By submitting the application, you agree to the
+                                        Privacy
+                                        Policy</span>
+                                </label>
+                                <a href="modal-send.html" class="form-field__btn">Send</a>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="map-block">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5645.097745095079!2d-97.74862344457608!3d30.269594749068283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sru!4v1653729555526!5m2!1sen!2sru"
+                        width="1319" height="501" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade" class="map-block__map">
+                    </iframe>
+                    <img src="assets/img/geo.png" alt="geo" class="map-block__img" />
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="logo_white"><a href="index.html"><img src="assets/img/logo_ft.png" alt="logo"></a>
+            </div>
+            <nav>
+                <h4 class="ft">Information</h4>
+                <ul class="ft">
+                    <li class="ft"><a class="ft" href="index.html">Main</a></li>
+                    <li class="ft"><a class="ft" href="gallery.html">Gallery</a></li>
+                    <li class="ft"><a class="ft" href="ourprojects.html">Projects</a></li>
+                    <li class="ft"><a class="ft" href="ceftifications.html">Certifications</a></li>
+                    <li class="ft"><a class="ft" href="contacts.html">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="ft">
+                <h4 class="ft">Contacts</h4>
+                <div class="ft__grid">
+                    <div class="ft"><img src="assets/img/Vector.png" alt="adress"></div>
+                    <div class="ft"> 1234 Sample Street
+                        Austin Texas 78704</div>
+                    <div class="ft"><img src="assets/img/Group.png" alt="mobile"></div>
+                    <div class="ft"><a href="tel:+512-333-2222">512.333.2222</a></div>
+                    <div class="ft"><img src="assets/img/Group_1.png" alt="e-mail"></div>
+                    <div class="ft"><a href="mailto:sampleemail@gmail.com">sampleemail@gmail.com</a></div>
+                </div>
+            </div>
+            <div class="ft social_media">
+                <h4 class="ft">Social Media</h4>
+                <div class="ft__img">
+                    <div class="icon"><a href="https://www.facebook.com/"><img src="assets/img/facebook.png"
+                                alt="facebook"></a></div>
+                    <div class="icon"><a href="https://twitter.com/"><img src="assets/img/twitter.png"
+                                alt="twitter"></a>
+                    </div>
+                    <div class="icon"><a href="https://ru.linkedin.com/"><img src="assets/img/LinkedIn.png"
+                                alt="LinkedIn"></a></div>
+                    <div class="icon"><a href="https://www.pinterest.ru/"><img src="assets/img/pininterest.png"
+                                alt="pininterest"></a>
                     </div>
                 </div>
             </div>
         </div>
-    </main>
-
-    <footer></footer>
+        <div class="block">
+            &copy; 2022 All Rights reserved
+        </div>
+    </footer>
 </body>
 
 </html>

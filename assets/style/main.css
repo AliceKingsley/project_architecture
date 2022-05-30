@@ -11,10 +11,13 @@
 @import "../style/contact-main.css";
 @import "../style/contacts.css";
 @import "../style/sample.css";
+@import "../style/header_footer.css";
 @import "../style/ourprojects.css";
+@import "../style/gallery.css";
 
 /* small components */
 @import "../style/button.css";
 @import "../style/counter.css";
 @import "../style/form.css";
-@import "../style/page-header.css"
+@import "../style/page-header.css";
+@import "../style/button.css";
