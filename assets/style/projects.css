@@ -1,5 +1,6 @@
 .projects {
-	padding-bottom: 120px;
+	position: relative;
+	padding-bottom: 140px;
 }
 
 .projects__title {
@@ -27,8 +28,6 @@
 .projects__card--4 {
 	grid-column: span 4;
 }
-
-.projects__img {}
 
 .projects-info {
 	padding-top: 3rem;
@@ -85,4 +84,10 @@
 
 .projects-info:hover {
 	opacity: 0.8;
+}
+
+.projects__btn {
+	position: absolute;
+	right: 0;
+	display: inline-block;
 }

@@ -1,31 +1,42 @@
+@import "../style/variables.css";
+
 .btn_grey,
 .btn_white {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 1.5vw;
-    width: 12vw;
-    height: 7vh;
-    text-decoration: none;
-    padding: 0;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 12px;
+	letter-spacing: 0.2em;
+	height: 100%;
+	text-decoration: none;
+	padding: 24px 35px;
+	text-transform: uppercase;
+	transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .btn_grey {
-    background-color: #333333;
-    color: white;
+	background-color: var(--color-dark-gray);
+	color: var(--color-light);
 }
 
 .btn_white {
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
+	margin-right: 13px;
+	background-color: var(--color-light);
+	color: var(--color-black);
 }
 
 .arrow {
-    align-self: center;
+	margin-left: 15px;
+	align-self: center;
 }
 
 
-.btn_grey:hover, .btn_white:hover {
-    background-color: #5877c1;
+.btn_grey:hover,
+.btn_white:hover {
+	background-color: var(--color-shadow-gray);
+}
+
+.btn_grey:hover {
+	background-color: var(--color-shadow-gray);
 }

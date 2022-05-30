@@ -32,4 +32,5 @@
 	margin-bottom: 20px;
 }
 .about__btn {
+	display: inline-block;
 }

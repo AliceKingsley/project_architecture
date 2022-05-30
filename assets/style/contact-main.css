@@ -17,3 +17,7 @@
 .contact__img {
 	grid-column: span 8;
 }
+
+.contact__btn {
+	display: inline-block;
+}

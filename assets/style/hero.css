@@ -59,6 +59,10 @@
 	grid-column: span 8;
 }
 
+.hero__img {
+	margin-bottom: -4px;
+}
+
 .hero__btn {
 	position: absolute;
 	bottom: 0;

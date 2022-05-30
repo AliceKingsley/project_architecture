@@ -21,6 +21,10 @@
     top: 150px;
 }
 
+.address {
+	margin-bottom: 30px;
+}
+
 .address-block__title {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
