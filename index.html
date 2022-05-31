@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
   <link rel="stylesheet" href="assets/style/main.css" />
   <link rel="stylesheet" href="assets/style/common.css">
+  <link rel="stylesheet" href="assets/style/modal-send.css" />
 </head>
 
 <body>
@@ -236,7 +237,7 @@
               class="contact__img"
             />
           </div>
-          <a href="#" class="contact__btn"
+          <a href="#ModalSend" class="contact__btn"
             >
             <div class="btn btn_grey">
               <div>Send Email</div>
@@ -248,6 +249,20 @@
               </div>
             </div>
           </a>
+
+          <div class="wrapper modal-window" id="ModalSend">
+            <div class="modal-send">
+              <a href="index.html" class="modal__close">
+                <img src="./assets/img/close-btn.svg" alt="close button" />
+              </a>
+              <img src="./assets/img/success.png" alt="success" class="modal-close__img"/>
+              <h2 class="modal-send__title">Thank You!</h2>
+              <p class="modal-send__text">
+                Your message has been sent, we will contact you soon
+              </p>
+              <a href="index.html" class="modal-send__btn">Go Back</a>
+            </div>
+          </div>
         </section>
 		</div>
   </main>
@@ -269,8 +284,8 @@
         <h4 class="ft">Contacts</h4>
         <div class="ft__grid">
           <div class="ft"><img src="assets/img/Vector.png" alt="adress"></div>
-          <div class="ft"> 1234 Sample Street
-            Austin Texas 78704</div>
+          <div class="ft"><a href="https://goo.gl/maps/TQ2zDh3mD5rpFwUPA" target="_blank" rel="noopener noreferrer">1234 Sample Street
+            Austin Texas 78704</a></div>
           <div class="ft"><img src="assets/img/Group.png" alt="mobile"></div>
           <div class="ft"><a href="tel:+512-333-2222">512.333.2222</a></div>
           <div class="ft"><img src="assets/img/Group_1.png" alt="e-mail"></div>
