@@ -80,3 +80,38 @@
     visibility: visible;
     opacity: 1;
 }
+
+/* стили для мобильных */
+
+@media screen and (max-width: 767px) {
+    .contacts {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .address {
+        padding-top: 5%;
+    }
+
+    .map-block {
+        margin-top: 10%;
+    }
+}
+
+/* стили для планшетов */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .contacts {
+        width: 10vw;
+        flex-wrap: wrap;
+    }
+
+    .contact-block {
+        display: flex;
+    }
+
+    .address {
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+}
