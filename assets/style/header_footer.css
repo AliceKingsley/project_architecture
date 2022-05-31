@@ -33,13 +33,13 @@ a.nav:hover {
 }
 
 .footer{
-    min-height: 30vh;
+    min-height: 30%;
     background-color: #2C2C2C;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
    
 }
 

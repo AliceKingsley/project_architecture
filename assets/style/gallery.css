@@ -1,10 +1,17 @@
-
-.gallery{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 2%;
+body{
+    height: 100vh;
+}
+.gallery__container{
     padding-bottom: 5%;
+}
+
+.gallery__container, .gallery__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery__img img{
+    min-width: 100%;
 }
 
 

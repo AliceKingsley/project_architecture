@@ -1,17 +1,17 @@
 .page-header {
-    margin-bottom: 30px;
+    margin-bottom: 3%;
 }
 
 .page-header__title {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 2.56rem;
+    font-size: 4vw;
     color: var(--color-gray);
 }
 
 .page-header__text {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 2.56rem;
+    font-size: 4vw;
     color: var(--color-black);
 }
