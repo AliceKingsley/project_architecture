@@ -6,11 +6,11 @@
 	flex-flow: row nowrap;
 	justify-content: space-around;
 	align-items: center;
-	font-size: 12px;
-	letter-spacing: 0.2em;
-	height: 100%;
+	font-size: 1.3vw;
+    width: 14vw;
+    height: 8vh;
 	text-decoration: none;
-	padding: 24px 35px;
+	padding: 0 0;
 	text-transform: uppercase;
 	transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
@@ -27,7 +27,7 @@
 }
 
 .arrow {
-	margin-left: 15px;
+	margin-left: 0;
 	align-self: center;
 }
 
@@ -39,4 +39,9 @@
 
 .btn_grey:hover {
 	background-color: var(--color-shadow-gray);
+}
+.contact {
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
 }
