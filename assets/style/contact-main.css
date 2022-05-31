@@ -16,6 +16,8 @@
 
 .contact__img {
 	grid-column: span 8;
+	display: block;
+	height: 100%;
 }
 
 .contact__btn {
