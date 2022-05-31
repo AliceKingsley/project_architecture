@@ -1,0 +1,95 @@
+/*tablets*/
+@media (max-width: 1023px) {
+	.hero-descr {
+		font-size: 42px;
+		line-height: 50px;
+	}
+
+	.missions {
+		padding-top: 100px;
+		padding-bottom: 80px;
+		gap: 20px;
+	}
+
+	.missions__count {
+		font-size: 150px;
+		line-height: 200px;
+	}
+
+	.missions__text {
+		font-size: 15px;
+		line-height: 27px;
+	}
+
+	.contact__form {
+		grid-column: span 5;
+	}
+	
+	.contact__img {
+		grid-column: span 7;
+	}
+}
+
+/*mobile*/
+@media (max-width: 767px) {
+	.hero__left {
+		grid-column: span 12;
+		text-align: center;
+	}
+
+	.hero__right {
+		grid-column: span 12;
+	}
+
+	.btn-block {
+		display: none;
+	}
+
+	.counter {
+		display: none;
+	}
+
+	.about__img-block1 {
+		grid-column: span 6;
+		order: 2;
+	}
+
+	.about__img-block2 {
+		grid-column: span 6;
+		order: 3;
+	}
+
+	.about__description {
+		grid-column: span 12;
+		order: 1;
+		text-align: center;
+	}
+
+	.about__descr {
+		max-width: none;
+	}
+
+	.missions__block {
+		grid-column: span 12;
+	}
+
+	.projects__title {
+		text-align: center;
+	}
+
+	.projects__card {
+		grid-column: span 12;
+	}
+
+	.contact__title {
+		text-align: center;
+	}
+
+	.contact__form {
+		grid-column: span 12;
+	}
+
+	.contact__img {
+		grid-column: span 12;
+	}
+}
