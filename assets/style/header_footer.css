@@ -95,3 +95,32 @@ h4.ft{
     color: #6c6c6c;
     font-size: 1.3vw;
 }
+
+@media (min-width:320px) and (max-width:767px) {
+    .footer{
+        display: none;    
+    }
+    header{
+        display: block;
+    }
+    .logo{
+        display: none;
+    }
+    li.header {
+        padding: 0;
+        font-size: 3vw;
+    }
+    nav ul{
+        display: flex;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows: 1fr;
+        gap: 2vw;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1023px){
+    li.header {
+        padding: 1vw;
+        font-size: 2vw;
+    }
+}
