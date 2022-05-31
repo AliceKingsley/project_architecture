@@ -1,10 +1,10 @@
-/* Смартфоны: от 320 (480) до 767
+/* Смартфоны: от 320 до 767
 Планшеты: от 768 до 1023*/
 
 @media (min-width:320px) and (max-width:767px) {
     .gallery__container{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax (400px,1fr));
+        grid-template-columns: repeat(auto-fit, minmax (200px,1fr));
         grid-template-rows: repeat(3, 1fr);
         gap: 1vw;
     }
@@ -31,13 +31,27 @@
 
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width:1023px){
     .gallery__container{
         display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
         gap: 1%;
+        margin-bottom: 10%;
+    }
+    li.header {
+        padding: 1vw;
+        font-size: 2vw;
     }
 }
 
+@media (min-width:1023px){
+    .gallery__container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1%;
+
+}
+}
 
