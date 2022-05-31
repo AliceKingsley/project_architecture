@@ -40,7 +40,7 @@
 .btn_grey:hover {
 	background-color: var(--color-shadow-gray);
 }
-.contact {
+.btn_contact {
 	display: flex;
 	flex-flow: row;
 	justify-content: center;
