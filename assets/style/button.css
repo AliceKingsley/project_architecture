@@ -21,6 +21,7 @@
 }
 
 .btn_white {
+	margin-top: 20px;
 	margin-right: 13px;
 	background-color: var(--color-light);
 	color: var(--color-black);
