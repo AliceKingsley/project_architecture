@@ -100,14 +100,14 @@ h4.ft{
     .footer{
         display: none;    
     }
-    header{
-        display: block;
-    }
+
     .logo{
         display: none;
     }
+    
+    
     li.header {
-        padding: 0;
+        
         font-size: 3vw;
     }
     nav ul{
@@ -115,6 +115,7 @@ h4.ft{
         grid-template-columns: repeat(5,1fr);
         grid-template-rows: 1fr;
         gap: 2vw;
+        justify-content: center;
     }
 }
 
