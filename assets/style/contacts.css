@@ -81,6 +81,10 @@
     opacity: 1;
 }
 
+.contact-container {
+    overflow: hidden;
+}
+
 /* стили для мобильных */
 
 @media screen and (max-width: 767px) {
@@ -111,7 +115,7 @@
     }
 
     .address {
-        margin-left: 10vw;
-        margin-right: 10vw;
+        margin-left: 6vw;
+        margin-right: 6vw;
     }
 }
