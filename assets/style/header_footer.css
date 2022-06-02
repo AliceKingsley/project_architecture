@@ -100,7 +100,9 @@ h4.ft{
     .footer{
         display: none;    
     }
-
+    header{
+        display: block
+    }
     .logo{
         display: none;
     }
@@ -112,10 +114,8 @@ h4.ft{
     }
     nav ul{
         display: flex;
-        grid-template-columns: repeat(5,1fr);
-        grid-template-rows: 1fr;
-        gap: 2vw;
-        justify-content: center;
+        justify-content: space-around;
+        flex-flow: row nowrap;
     }
 }
 
