@@ -107,14 +107,13 @@ h4.ft{
         display: none;
     }
     
-    
     li.header {
-        
+        padding: 0;
         font-size: 3vw;
     }
     nav ul{
-        display: flex;
-        justify-content: space-around;
+  display: flex;
+        justify-content: space-between;
         flex-flow: row nowrap;
     }
 }
