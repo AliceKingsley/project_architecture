@@ -21,10 +21,29 @@
 		line-height: 27px;
 	}
 
+	.projects-info {
+		padding-top: 1.8rem;
+		padding-left: 2rem;
+	}
+
+	.projects-info__title {
+		font-size: 38px;
+		line-height: 44px;
+	}
+
+	.projects-info__btn {
+		font-size: 10px;
+		line-height: 10px;
+	}
+
 	.contact__form {
 		grid-column: span 5;
 	}
 	
+	.contact__block {
+		gap: 20px;
+	}
+
 	.contact__img {
 		grid-column: span 7;
 	}
