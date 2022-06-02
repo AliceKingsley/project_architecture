@@ -12,6 +12,10 @@ align-items: center;
     max-width: 8%;
     border-style: none;
 }
+.logo_hidden {
+	display: none;
+}
+
 
 li.header {
     list-style-type: none;
@@ -108,15 +112,37 @@ h4.ft{
     header{
         display: block
     }
+    .header {
+        display: block;
+    }
+    .logo_white {
+		padding-left: 0;
+	}
     .logo{
         display: none;
     }
-    
+
+	.block {
+		padding: 2% 5%;
+        display: flex;
+		justify-content: space-between;
+		align-items: center;
+        border: none;
+	}
+
     li.header {
         font-size: 3vw;
+        padding: 0;
     }
+    .logo_hidden {
+		display: inline-block;
+	}
+    .block span {
+		display: inline-block;
+	}
+
     nav ul{
-  display: flex;
+        display: flex;
         justify-content: space-between;
         flex-flow: row nowrap;
         
