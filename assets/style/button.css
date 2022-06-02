@@ -50,10 +50,10 @@
 @media (min-width:320px) and (max-width:768px) {
 	.btn_grey,
 .btn_white {
-	width: 9vw;
-    height: 4vh;
+	width: 16vw;
+    height: 6vh;
 	text-align: center;
-	font-size: 1.8vw;
+	font-size: 3vw;
 }
 .arrow {
 	display: none;
