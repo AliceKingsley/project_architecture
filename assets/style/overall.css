@@ -47,8 +47,8 @@
 .descr {
 	margin: 0;
 	font-weight: 300;
-	font-size: 2vw;
-    line-height: 3vw;
+	font-size: 1.3vw;
+    line-height: 1.6vw;
 	color: var(--color-black);
 }
 
@@ -56,5 +56,13 @@
 	.title {
 		font-size: 46px;
 		line-height: 54px;
+	}
+}
+
+@media (min-width:320px) and (max-width:1024px) {
+	.descr {
+		
+		font-size: 2vw;
+		line-height: 3vw;
 	}
 }
