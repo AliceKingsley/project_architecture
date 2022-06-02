@@ -24,7 +24,7 @@
 	grid-column: span 5;
 }
 .about__title {
-	margin-bottom: 20px;
+	padding-bottom: 20px;
 }
 
 .about__descr {

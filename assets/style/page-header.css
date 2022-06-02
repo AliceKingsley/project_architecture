@@ -5,13 +5,13 @@
 .page-header__title {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 4vw;
+    font-size: 5vh;
     color: var(--color-gray);
 }
 
 .page-header__text {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 4vw;
+    font-size: 5vh;
     color: var(--color-black);
 }
