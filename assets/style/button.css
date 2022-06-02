@@ -21,8 +21,8 @@
 }
 
 .btn_white {
-	margin-top: 20px;
-	margin-right: 13px;
+	margin-top: 1.8vw;
+	margin-right: 1.5vw;
 	background-color: var(--color-light);
 	color: var(--color-black);
 }
@@ -45,4 +45,18 @@
 	display: flex;
 	flex-flow: row;
 	justify-content: center;
+}
+
+@media (min-width:320px) and (max-width:1024px) {
+	.btn_grey,
+.btn_white {
+	width: 9vw;
+    height: 4vh;
+	text-align: center;
+	font-size: 1.8vw;
+}
+.arrow {
+	display: none;
+}
+	
 }
