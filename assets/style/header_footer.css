@@ -1,9 +1,18 @@
 header {
+<<<<<<< HEAD
 	margin: 0 5% 2% 5%;
 	padding-top: 2%;
 	display: flex;
 	justify-content: space-between;
 	flex-flow: row nowrap;
+=======
+    max-width: 1200px;
+    margin: 0 auto;
+  padding: 5% 0 5% 0;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+>>>>>>> 59271b730df4cbb11b7cd13ee133945757d87f16
 }
 
 .logo {
@@ -36,6 +45,7 @@ a.nav:hover {
 	color: #5877c1;
 }
 
+<<<<<<< HEAD
 .footer {
 	min-height: 30%;
 	background-color: #2C2C2C;
@@ -44,6 +54,22 @@ a.nav:hover {
 	justify-content: space-between;
 	padding-top: 4vh;
 	padding-bottom: 4vh;
+=======
+footer{
+    background-color: #2C2C2C
+}
+.footer{
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 30%;
+    background-color: #2C2C2C;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+   
+>>>>>>> 59271b730df4cbb11b7cd13ee133945757d87f16
 }
 
 .ft {
@@ -53,8 +79,20 @@ a.nav:hover {
 }
 
 a.ft:hover {
+<<<<<<< HEAD
 	text-decoration: overline underline;
 	color: #5877c1;
+=======
+    text-decoration: overline underline;
+    color: #5877c1;
+}
+li.ft{
+    padding-bottom: 1.3vw;
+    font-size: 1.1vw;
+}
+.logo_white{
+    max-width: 14%;
+>>>>>>> 59271b730df4cbb11b7cd13ee133945757d87f16
 }
 
 li.ft {
@@ -66,9 +104,14 @@ li.ft {
 	padding-left: 5%;
 	max-width: 14%;
 }
+<<<<<<< HEAD
 
 h4.ft {
 	margin: 0 0 3vh 0;
+=======
+.social_media{
+    width: 20%;
+>>>>>>> 59271b730df4cbb11b7cd13ee133945757d87f16
 }
 
 .ft__grid {

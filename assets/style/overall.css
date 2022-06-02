@@ -1,5 +1,9 @@
 /* =======overall settings======= */
 .site-container {
+<<<<<<< HEAD
+=======
+	/* min-height: 100%; */
+>>>>>>> 59271b730df4cbb11b7cd13ee133945757d87f16
 	overflow: hidden;
 }
 
