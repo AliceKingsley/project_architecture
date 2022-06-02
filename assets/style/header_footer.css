@@ -1,6 +1,7 @@
 header {
-    margin: 0 5% 2% 5%;
-    padding-top: 2%;
+    max-width: 1200px;
+    margin: 0 auto;
+  padding: 5% 0 5% 0;
     display: flex;
     justify-content: space-between;
     flex-flow: row nowrap;
@@ -32,7 +33,12 @@ a.nav:hover {
     color: #5877c1;
 }
 
+footer{
+    background-color: #2C2C2C
+}
 .footer{
+    max-width: 1200px;
+    margin: 0 auto;
     min-height: 30%;
     background-color: #2C2C2C;
     display: flex;
@@ -57,7 +63,6 @@ li.ft{
     font-size: 1.1vw;
 }
 .logo_white{
-    padding-left: 5%;
     max-width: 14%;
 }
 
@@ -73,7 +78,6 @@ h4.ft{
     row-gap: 3vw;
 }
 .social_media{
-    padding-right: 5%;
     width: 20%;
 }
 .ft__img{
