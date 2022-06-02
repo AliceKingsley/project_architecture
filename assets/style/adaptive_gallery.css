@@ -2,51 +2,27 @@
 Планшеты: от 768 до 1023*/
 
 @media (min-width:320px) and (max-width:767px) {
-    .gallery__container{
+    .gallery__conteiner{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax (200px,1fr));
         grid-template-rows: repeat(3, 1fr);
         gap: 1vw;
     }
 
-    .footer{
-        display: none;    
-    }
-    header{
-        display: block;
-    }
-    .logo{
-        display: none;
-    }
-    li.header {
-        padding: 0;
-        font-size: 3vw;
-    }
-    nav ul{
-        display: flex;
-        grid-template-columns: repeat(5,1fr);
-        grid-template-rows: 1fr;
-        gap: 2vw;
-    }
-
 }
 
 @media (min-width: 768px) and (max-width:1023px){
-    .gallery__container{
+    .gallery__conteiner{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(5, 1fr);
         gap: 1%;
         margin-bottom: 10%;
-    }
-    li.header {
-        padding: 1vw;
-        font-size: 2vw;
-    }
+}
 }
 
 @media (min-width:1023px){
-    .gallery__container{
+    .gallery__conteiner{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -54,4 +30,3 @@
 
 }
 }
-

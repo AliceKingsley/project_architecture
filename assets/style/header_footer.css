@@ -1,10 +1,11 @@
-header {
-    max-width: 1200px;
-    margin: 0 auto;
-  padding: 5% 0 5% 0;
+header{
+    margin: 3% 5%;
+}
+.header{
     display: flex;
-    justify-content: space-between;
     flex-flow: row nowrap;
+    justify-content: space-between;
+align-items: center;
 }
 
 .logo {
@@ -15,7 +16,7 @@ header {
 li.header {
     list-style-type: none;
     display: inline;
-    padding-left:4vw;
+    padding-left: 4vw;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -34,18 +35,18 @@ a.nav:hover {
 }
 
 footer{
-    background-color: #2C2C2C
+    background-color: #2C2C2C;
+}
+.ft_margin {
+    margin: 0 5% 1%;
 }
 .footer{
-    max-width: 1200px;
-    margin: 0 auto;
     min-height: 30%;
     background-color: #2C2C2C;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    padding-top: 4vh;
-    padding-bottom: 4vh;
+    padding-top: 3%;
    
 }
 
@@ -63,11 +64,11 @@ li.ft{
     font-size: 1.1vw;
 }
 .logo_white{
-    max-width: 14%;
+    max-width: 10%;
 }
 
 h4.ft{
-    margin: 0 0 3vh 0;
+    margin: 0 0 2vw 0;
 }
 
 .ft__grid{
@@ -112,19 +113,18 @@ h4.ft{
     }
     
     li.header {
-        padding: 0;
         font-size: 3vw;
     }
     nav ul{
   display: flex;
         justify-content: space-between;
         flex-flow: row nowrap;
+        
     }
 }
 
 @media (min-width: 768px) and (max-width:1023px){
     li.header {
-        padding: 1vw;
         font-size: 2vw;
     }
 }

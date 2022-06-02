@@ -1,9 +1,6 @@
 
-.gallery__container{
-    padding-bottom: 5%;
-}
 
-.gallery__container, .gallery__img{
+.gallery__conteiner, .gallery__img{
     width: 100%;
     height: 100%;
     object-fit: cover;
