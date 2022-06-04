@@ -4,6 +4,7 @@
 	padding-bottom: 30px;
 	gap: 30px;
 	background-color: #fbfbfb;
+	min-width: fit-content;
 }
 .about__img-block1 {
 	grid-column: span 4;
