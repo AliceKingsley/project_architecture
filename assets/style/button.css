@@ -50,8 +50,8 @@
 @media (min-width:320px) and (max-width:768px) {
 	.btn_grey,
 .btn_white {
-	width: 16vw;
-    height: 4vw;
+	width: 10vw;
+    height: 6vw;
 	text-align: center;
 	font-size: 2vw;
 }
