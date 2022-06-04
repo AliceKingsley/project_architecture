@@ -96,6 +96,11 @@
 		text-align: center;
 	}
 
+	.missions__text {
+		font-size: 16px;
+		line-height: 22px;
+	}
+
 	.projects__card {
 		grid-column: span 12;
 	}

@@ -58,3 +58,9 @@ address {
 main {
     margin: 5%;
 }
+
+@media (max-width: 767px) {
+	main {
+		margin: 0;
+	}
+}

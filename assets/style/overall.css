@@ -47,7 +47,7 @@
 	margin: 0;
 	font-weight: 300;
 	font-size: 1.3vw;
-    line-height: 1.6vw;
+	line-height: 1.6vw;
 	color: var(--color-black);
 }
 
@@ -59,9 +59,14 @@
 }
 
 @media (min-width:320px) and (max-width:768px) {
+	.title {
+		font-size: 12vw;
+	}
+
 	.descr {
-		font-size: 2vw;
+		font-size: 3vw;
 		line-height: 4vw;
 		padding: 0% 2%;
-}
+		max-width: none;
 	}
+}
