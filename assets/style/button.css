@@ -51,9 +51,9 @@
 	.btn_grey,
 .btn_white {
 	width: 16vw;
-    height: 6vh;
+    height: 4vw;
 	text-align: center;
-	font-size: 3vw;
+	font-size: 2vw;
 }
 .arrow {
 	display: none;
@@ -65,7 +65,9 @@
 	.btn_grey,
 .btn_white {
 	width: 9vw;
-height: 3vh;
+height: 4vw;
+text-align: center;
+	font-size: 1.5vw;
 }
 
 .arrow {
