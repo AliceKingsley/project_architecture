@@ -39,7 +39,7 @@
 	.contact__form {
 		grid-column: span 5;
 	}
-	
+
 	.contact__block {
 		gap: 20px;
 	}
@@ -123,5 +123,40 @@
 
 	.contact__img {
 		grid-column: span 12;
+	}
+}
+
+@media (max-width: 374px) {
+	.about {
+		gap: 0;
+	}
+
+	.about__img-block2 {
+		display: none;
+	}
+
+	.about__img-block1 {
+		margin-top: 20px;
+		grid-column: span 12;
+	}
+
+	.about__img-block1 img {
+		width: 88%;
+	}
+
+	.projects__card img {
+		width: 88%;
+	}
+
+	.projects-info {
+		padding-top: 1rem;
+		padding-left: 2rem;
+		width: 88%;
+		max-height: 100%;
+	}
+
+	.projects-info__title {
+		font-size: 30px;
+		line-height: 40px;
 	}
 }
