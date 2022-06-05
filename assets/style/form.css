@@ -1,8 +1,11 @@
 .form {
-	padding: 0 10px;
+	/* padding: 0 10px; */
 }
 .form-field {
 	display: block;
+}
+
+.form-field:not(:last-child) {
 	margin-bottom: 10px;
 }
 
@@ -13,7 +16,7 @@
 
 .form-field textarea {
 	resize: none;
-	min-height: 147px;
+	min-height: 148px;
 }
 
 .form-field__input {
