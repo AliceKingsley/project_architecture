@@ -85,6 +85,29 @@
 
 /*mobile*/
 @media (max-width: 767px) {
+	header {
+		margin: 0;
+	}
+	
+	.hero {
+		position: relative;
+	}
+
+	.header-block {
+		padding: 5px 10px;
+		display: block;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 100;
+		width: 100%;
+		background-color: rgba(255, 255, 255, 0.8);
+	}
+
+	.nav:not(:last-child) {
+		margin-right: 10px;
+	}
+
 	.hero__left {
 		grid-column: span 12;
 		text-align: center;

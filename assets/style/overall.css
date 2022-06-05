@@ -59,6 +59,10 @@
 }
 
 @media (min-width:320px) and (max-width:768px) {
+	.site-container {
+		margin-top: 40px;
+	}
+
 	.title {
 		font-size: 8vw;
 	}
