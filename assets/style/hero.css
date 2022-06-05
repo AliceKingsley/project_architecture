@@ -35,15 +35,20 @@
 	background-color: var(--color-light-gray);
 }
 
+.btn {
+	cursor: pointer;
+}
+
 .hero__btn-small {
 	width: 53px;
 	height: 53px;
-	border: 1px solid var(--color-light-gray);
-	background-color: #f9f9f9;
+	background-color: var(--color-light);
 	background-image: url(../img/arrow.svg);
 	background-position: center;
 	background-size: 24px 24px;
 	background-repeat: no-repeat;
+	border: 1px solid var(--color-light-gray);
+	transition: background-color 0.3s ease-in-out;
 }
 
 .hero__btn-small:not(:last-child) {
@@ -52,6 +57,10 @@
 
 .hero__btn-small--right {
 	transform: rotate(180deg);
+}
+
+.hero__btn-small:hover {
+	background-color: #f9f9f9;
 }
 
 .hero__right {
