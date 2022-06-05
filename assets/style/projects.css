@@ -36,6 +36,7 @@
 .projects-info {
 	padding-top: 3rem;
 	padding-left: 5rem;
+	display: block;
 	position: absolute;
 	width: 100%;
 	min-height: 100%;
