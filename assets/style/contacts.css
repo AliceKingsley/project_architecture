@@ -81,6 +81,10 @@
     opacity: 1;
 }
 
+.map-block_small {
+    display: none;
+}
+
 /* стили для мобильных */
 
 @media screen and (max-width: 767px) {
@@ -97,7 +101,23 @@
     }
 
     .map-block {
+        width: 100%;
         margin-top: 10%;
+    }
+
+    .map-block_big {
+        display: none;
+    }
+
+    .map-block_small {
+        display: inherit;
+        width: 100%;
+    }
+
+    .map-block__img {
+        position: absolute;
+        left: 160px;
+        top: 150px;
     }
 }
 
